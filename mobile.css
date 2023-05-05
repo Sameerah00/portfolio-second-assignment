@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+  nav img {
+    display: none;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    width: 100%;
+  }
+  nav ul {
+    display: flex;
+    margin: 0;
+  }
+
+  .detel {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 0%;
+    padding: 0;
+  }
+
+  .detel h1 {
+    color: rgb(0, 0, 0);
+    margin-bottom: 0;
+  }
+  span {
+    color: blue;
+  }
+
+  .detel p {
+    color: #555;
+    line-height: 1.7rem;
+  }
+
+  .detel a {
+    background: #212121;
+    padding: 0;
+    text-decoration: none;
+    font-weight: bold;
+    color: #efefef;
+    display: inline-block;
+    margin: 0;
+    border-radius: 5px;
+  }
+
+  .images {
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+  }
+
+  .wrapper {
+    display: flex;
+    gap: 10px;
+  }
+
+  .About {
+    margin-top: 15rem;
+  }
+}
